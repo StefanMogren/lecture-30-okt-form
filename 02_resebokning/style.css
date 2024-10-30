@@ -3,3 +3,103 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+}
+
+h1 {
+    background-color: rgba(206, 206, 206, 1);
+    border-radius: 10px 10px 0 0;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.from-city {
+    background-color: rgba(226, 226, 226, 1);
+    display: grid;
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.to-city {
+    background-color: rgba(236, 236, 236, 1);
+    display: grid;
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.test {
+    text-align: center;
+    margin: -3rem 0 2rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    grid-column: 2;
+}
+
+.arrival-departure {
+    grid-column: 2;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.checkboxes {
+    height: 1.2rem;
+    width: 1.2rem;
+    accent-color: black;
+}
+
+.span-one {
+    grid-column: auto / span 1;
+}
+
+.span-two {
+    grid-column: auto / span 2;
+}
+
+.input-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 50vw;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+select, input {
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.test {
+    z-index: 1;
+}
+
+button {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+}

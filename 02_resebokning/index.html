@@ -7,6 +7,63 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <article>
+        <section class="wrapper">
+            <h1 class="span-two">ÅKA TÅG</h1>
+            <div class="from-city span-one">
+                <h2>STOCKHOLM</h2>
+                <p class="arrival-departure">10:30</p>
+            </div>
+            <div class="to-city span-one">
+                <h2>GÖTEBORG</h2>
+                <p class="arrival-departure">14:45</p>
+            </div>
+        </section>
+        <p class="test">&rarr;</p>
+
+        <!-- Fältet man fyller i information -->
+        <form action="" class="input-form">
+            <label class="span-one">
+                <input type="radio" class="checkboxes" id="2ndClass" name="whichClass" checked>
+                2:a klass
+            </label>
+            <label class="span-one">
+                <input type="radio" class="checkboxes" id="1stClass" name="whichClass">
+                1:a klass
+            </label>
+            <label class="input-fields span-one">
+                Antal biljetter
+                <select name="numberOfTickets" id="numberOfTickets">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
+            <label class="input-fields span-one">
+                Titel
+                <select name="title" id="title">
+                    <option value="Sir">Sir</option>
+                    <option value="Ma'am">Ma'am</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Ms.">Ms.</option>
+                </select>
+            </label>
+            <label class="input-fields span-two">
+                Förnamn
+                <input type="text">
+            </label>
+            <label class="input-fields span-two">
+                Efternamn
+                <input type="text">
+            </label>
+            <label class="span-two">
+                <input type="checkbox" class="checkboxes">
+                Godkänner villkoren
+            </label>
+            <button class="span-two">Boka biljetter</button>
+        </form>
+    </article>
 </body>
 </html>
